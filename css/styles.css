@@ -766,6 +766,8 @@ header .list{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display: flex;
+    align-items: center;
 }
 
 .all-checkbox{
@@ -784,19 +786,17 @@ header .list{
     color: #4D5AE5;
 }
 
-.icon-checkbox{
+.icon-checkbox {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
-.checkbox:checked + .icon-checkbox{
+.checkbox:checked + .label-checkbox-modal-window span{
     background-color: var(--title-button-hover);
     border: none;
     fill: var(--first-button-portfolio-normal);
