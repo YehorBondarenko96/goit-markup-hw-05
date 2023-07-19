@@ -379,8 +379,8 @@
                     <div class="ansver-modal-window">
                         <label class="label-modal-window" for="user-name">Name</label>
                             <div class="form-ansver-modal-window">
-                                <input class="input-ansver-modal-window" type="text" name="username" id="user-name" />
-                                <svg class="icon-ansver-modal-window" width="18" height="18">
+                                <input class="input-ansver-modal-window" type="text" name="user-name" id="user-name" />
+                                <svg class="icon-ansver-modal-window" width="18" height="24">
                                     <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                                 </svg>
                             </div>
@@ -389,8 +389,8 @@
                     <div class="ansver-modal-window">
                         <label class="label-modal-window" for="user-tel">Phone</label>
                             <div class="form-ansver-modal-window">
-                                <input class="input-ansver-modal-window" type="tel" name="usertel" id="user-tel" />
-                                <svg class="icon-ansver-modal-window" width="18" height="18">
+                                <input class="input-ansver-modal-window" type="tel" name="user-tel" id="user-tel" />
+                                <svg class="icon-ansver-modal-window" width="18" height="24">
                                     <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
                                 </svg>
                             </div>
@@ -399,20 +399,28 @@
                     <div class="ansver-modal-window">
                         <label class="label-modal-window" for="user-email">Email</label>
                             <div class="form-ansver-modal-window">
-                            <input class="input-ansver-modal-window" type="email" name="useremail" id="user-email" />
-                            <svg class="icon-ansver-modal-window" width="18" height="18">
+                            <input class="input-ansver-modal-window" type="email" name="user-email" id="user-email" />
+                            <svg class="icon-ansver-modal-window" width="18" height="24">
                             <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                         </svg>
                         </div>
                     </div>
 
-                    <label class="label-textarea-modal-window" for="comment">Comment</label>
-                    <textarea class="textarea-modal-window" id="comment" name="comment" placeholder="Text input"></textarea>
-                    
+                    <div class="modal-textarea">
+                    <label class="label-modal-window" for="user-comment">Comment</label>
+                    <textarea class="textarea-modal-window" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+                    </div>
+
                     <div class="all-checkbox">
-                    <label class="label-checkbox-modal-window" for="checkbox"></label>
-                    <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" />
-                    <span class="text-checkbox">I accept the terms and conditions of the <span class="link-checkbox">Privacy Policy</span></span>
+                    <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true"/>
+                    <label class="label-checkbox-modal-window" for="user-privacy">I accept the terms and conditions of the 
+                        <span class="icon-checkbox">
+                            <svg>
+                                <use href="./images/icons.svg#icon-Checkbox"></use>
+                            </svg>
+                        </span>
+                        <a class="link-checkbox" href="">Privacy Policy</a>
+                    </label>
                     </div>
 
                     <button class="modal-button" type="submit">Send</button>
