@@ -764,7 +764,6 @@ header .list{
 
 .label-checkbox-modal-window{
     display: inline-block;
-    margin-top: 16px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -775,13 +774,11 @@ header .list{
 
 .all-checkbox{
     margin-bottom: 24px;
+    position: relative;
 }
 
 .checkbox{
-    width: 16px;
-    height: 16px;
-    border-radius: 2px;
-    border: 1px solid rgba(46, 47, 66, 0.40);
+    
 }
 
 
