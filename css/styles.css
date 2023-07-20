@@ -768,8 +768,6 @@ header .list{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
 }
 
 .all-checkbox{
@@ -792,6 +790,7 @@ header .list{
     fill: transparent;
     margin-right: 8px;
     position: relative;
+    vertical-align: bottom;
 }
 
 .checkbox:checked + .label-checkbox-modal-window .icon-checkbox{
